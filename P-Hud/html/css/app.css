@@ -1,0 +1,121 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0 0 2px #fff;
+}
+
+.grey {
+	color: #303030;
+	text-shadow: 0 0 2px #303030;
+}
+
+#infos {
+    position: absolute;
+    top: 3%;
+    right:2%;
+    width: 235px;
+}
+.jobs-info {
+	position: relative;
+	width: 235px;
+	height: 15px;
+	margin-bottom: 7px;
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(114, 114, 114, 0.125) 100%);
+	border-right: 5px solid #9600ff; /* Violet */
+}
+.info {
+	position: relative;
+	width: 235px;
+	height: 30px;
+	margin-bottom: 7px;
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(114, 114, 114, 0.125) 100%);
+	border-right: 5px solid #b300ff; /* Violet */
+	border-radius: 20px;
+}
+
+.info .container {
+	text-align: right;
+	margin-right: 10px;
+	justify-content: flex-end;
+}
+
+.info .container img.badge {
+	height: 22px;
+	width: 22px;
+	margin-right: 15px;
+	box-shadow: 120px 80px 40px 20px rgb(255, 255, 255);
+}
+
+.info .container .badge {
+	position: absolute;
+    right: -5px;
+    margin-top: 5px;
+}
+
+.info .container .state {
+	position: absolute;
+    right: 40px;
+	overflow: hidden;
+	top: 6px;
+	left: 10px;
+	color: white;
+	font-size: 18px;
+	white-space: nowrap;
+	letter-spacing: -1px;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	text-shadow: 0 0 2px #fff;
+}
+.jobs-state {
+	position: absolute;
+    right: 40px;
+	overflow: hidden;
+	top: 6px;
+	left: 10px;
+	color: white;
+	font-size: 10px;
+	white-space: nowrap;
+	letter-spacing: -1px;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	text-shadow: 0 0 2px #fff;
+}
+.info-server {
+	position: relative;
+	width: 235px;
+	height: 48px;
+	margin-bottom: 7px;
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(114, 114, 114, 0.125) 100%);
+	border-right: 5px solid  #b300ff; /* Violet */
+	color: white;
+	font-size: 14px;
+	border-radius: 20px;
+}
+
+.container-server-top {
+	display: inline-block;
+}
+
+.container-server {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	align-items: center;
+	text-align: center;
+}
+	
+.g1 { 
+	grid-area: 1 / 1 / 2 / 4;
+	display: table;
+}
+
+.g2 { 
+	grid-area: 1 / 4 / 2 / 7;
+	display: table;
+}
+
+.g3 { 
+	grid-area
